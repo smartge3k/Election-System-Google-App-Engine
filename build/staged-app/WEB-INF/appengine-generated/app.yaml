@@ -1,0 +1,99 @@
+runtime: java8
+inbound_services:
+- warmup
+derived_file_type:
+- java_precompiled
+threadsafe: True
+auto_id_policy: default
+api_version: 'user_defined'
+handlers:
+- url: (/admin)
+  static_files: __static__\1
+  upload: __NOT_USED__
+  require_matching_file: True
+  login: admin
+  secure: optional
+- url: (/admin/.*)
+  static_files: __static__\1
+  upload: __NOT_USED__
+  require_matching_file: True
+  login: admin
+  secure: optional
+- url: (/.*)
+  static_files: __static__\1
+  upload: __NOT_USED__
+  require_matching_file: True
+  login: optional
+  secure: optional
+- url: /admin/.*/
+  script: unused
+  login: admin
+  secure: optional
+- url: /
+  script: unused
+  login: optional
+  secure: optional
+- url: /admin/
+  script: unused
+  login: admin
+  secure: optional
+- url: /admin/.*\.jsp
+  script: unused
+  login: admin
+  secure: optional
+- url: /.*/
+  script: unused
+  login: optional
+  secure: optional
+- url: /_ah/.*
+  script: unused
+  login: optional
+  secure: optional
+- url: /admin/ReminderEmail
+  script: unused
+  login: admin
+  secure: optional
+- url: /admin/importvoters
+  script: unused
+  login: admin
+  secure: optional
+- url: .*\.jsp
+  script: unused
+  login: optional
+  secure: optional
+- url: /electionresults
+  script: unused
+  login: optional
+  secure: optional
+- url: /assignvote
+  script: unused
+  login: optional
+  secure: optional
+- url: /costvote
+  script: unused
+  login: optional
+  secure: optional
+- url: /admin/editElection
+  script: unused
+  login: admin
+  secure: optional
+- url: /admin/editcandidate
+  script: unused
+  login: admin
+  secure: optional
+- url: /admin/deletecandidate
+  script: unused
+  login: admin
+  secure: optional
+- url: /admin/addCandidate
+  script: unused
+  login: admin
+  secure: optional
+- url: /admin/addelection
+  script: unused
+  login: admin
+  secure: optional
+- url: /admin/dashboard
+  script: unused
+  login: admin
+  secure: optional

@@ -1,0 +1,5 @@
+cron:
+- description: 'Reminder Email'
+  url: /admin/ReminderEmail
+  schedule: every 24 hours
+  timezone: Europe/Berlin

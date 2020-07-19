@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+
+<!-- JSPC servlet mappings start -->
+
+    <servlet>
+        <servlet-name>org.apache.jsp.addelection_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.addelection_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.editelection_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.editelection_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.importvoters_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.importvoters_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.errorinelectionresults_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.errorinelectionresults_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.notImportedEmailMessage_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.notImportedEmailMessage_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.errorcostingvote_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.errorcostingvote_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.electionresults_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.electionresults_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.mainelection_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.mainelection_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.reminderfailed_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.reminderfailed_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.novoting_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.novoting_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.remindersent_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.remindersent_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.costvote_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.costvote_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.editcandiate_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.editcandiate_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.addcandidate_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.addcandidate_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.thankyouforvoting_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.thankyouforvoting_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.EmailsImported_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.EmailsImported_jsp</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.addelection_jsp</servlet-name>
+        <url-pattern>/addelection.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.editelection_jsp</servlet-name>
+        <url-pattern>/editelection.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.importvoters_jsp</servlet-name>
+        <url-pattern>/importvoters.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.errorinelectionresults_jsp</servlet-name>
+        <url-pattern>/errorinelectionresults.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.notImportedEmailMessage_jsp</servlet-name>
+        <url-pattern>/notImportedEmailMessage.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.errorcostingvote_jsp</servlet-name>
+        <url-pattern>/errorcostingvote.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.electionresults_jsp</servlet-name>
+        <url-pattern>/electionresults.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.mainelection_jsp</servlet-name>
+        <url-pattern>/mainelection.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.reminderfailed_jsp</servlet-name>
+        <url-pattern>/reminderfailed.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.novoting_jsp</servlet-name>
+        <url-pattern>/novoting.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.remindersent_jsp</servlet-name>
+        <url-pattern>/remindersent.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.index_jsp</servlet-name>
+        <url-pattern>/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.costvote_jsp</servlet-name>
+        <url-pattern>/costvote.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.editcandiate_jsp</servlet-name>
+        <url-pattern>/editcandiate.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.addcandidate_jsp</servlet-name>
+        <url-pattern>/addcandidate.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.thankyouforvoting_jsp</servlet-name>
+        <url-pattern>/thankyouforvoting.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.EmailsImported_jsp</servlet-name>
+        <url-pattern>/EmailsImported.jsp</url-pattern>
+    </servlet-mapping>
+
+<!-- JSPC servlet mappings end -->
+
+<security-constraint>
+ <web-resource-collection>
+  <web-resource-name>setdate</web-resource-name>
+   <url-pattern>/admin/*</url-pattern>
+ </web-resource-collection>
+  <auth-constraint>
+   <role-name>admin</role-name>
+    </auth-constraint>
+     </security-constraint>
+
+
+
+	<servlet>
+		<servlet-name>createelection</servlet-name>
+		<servlet-class>com.example.appengine.java8.createelection</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>createelection</servlet-name>
+		<url-pattern>/admin/dashboard</url-pattern>
+	</servlet-mapping>	
+	
+	
+	
+
+	
+	
+	<servlet>
+		<servlet-name>addelection</servlet-name>
+		<servlet-class>com.example.appengine.java8.addelection</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>addelection</servlet-name>
+		<url-pattern>/admin/addelection</url-pattern>
+	</servlet-mapping>	
+	
+
+
+
+		<servlet>
+		<servlet-name>addCandidate</servlet-name>
+		<servlet-class>com.example.appengine.java8.addCandidate</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>addCandidate</servlet-name>
+		<url-pattern>/admin/addCandidate</url-pattern>
+	</servlet-mapping>	
+	
+	
+	
+	
+
+	<servlet>
+		<servlet-name>deletecandidate</servlet-name>
+		<servlet-class>com.example.appengine.java8.deletecandidate</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>deletecandidate</servlet-name>
+		<url-pattern>/admin/deletecandidate</url-pattern>
+	</servlet-mapping>	
+	
+	
+
+	
+	<servlet>
+		<servlet-name>editcandidate</servlet-name>
+		<servlet-class>com.example.appengine.java8.editcandidate</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>editcandidate</servlet-name>
+		<url-pattern>/admin/editcandidate</url-pattern>
+	</servlet-mapping>	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>editElection</servlet-name>
+		<servlet-class>com.example.appengine.java8.editElection</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>editElection</servlet-name>
+		<url-pattern>/admin/editElection</url-pattern>
+	</servlet-mapping>	
+	
+	
+
+	<servlet>
+		<servlet-name>importvoters</servlet-name>
+		<servlet-class>com.example.appengine.java8.importvoters</servlet-class>
+		<multipart-config>
+        <max-file-size>10485760</max-file-size>
+        <max-request-size>20971520</max-request-size>
+        <file-size-threshold>5242880</file-size-threshold>
+    </multipart-config>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>importvoters</servlet-name>
+		<url-pattern>/admin/importvoters</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>ReminderEmail</servlet-name>
+		<servlet-class>com.example.appengine.java8.ReminderEmail</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ReminderEmail</servlet-name>
+		<url-pattern>/admin/ReminderEmail</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>costvote</servlet-name>
+		<servlet-class>com.example.appengine.java8.costvote</servlet-class>
+	</servlet>
+
+	
+		<servlet-mapping>
+		<servlet-name>costvote</servlet-name>
+		<url-pattern>/costvote</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>assignvote</servlet-name>
+		<servlet-class>com.example.appengine.java8.assignvote</servlet-class>
+	</servlet>
+
+	
+		<servlet-mapping>
+			<servlet-name>assignvote</servlet-name>
+			<url-pattern>/assignvote</url-pattern>
+		</servlet-mapping>
+		
+		
+	<servlet>
+		<servlet-name>ElectionResults</servlet-name>
+		<servlet-class>com.example.appengine.java8.ElectionResults</servlet-class>
+	</servlet>
+		<servlet-mapping>
+			<servlet-name>ElectionResults</servlet-name>
+			<url-pattern>/electionresults</url-pattern>
+		</servlet-mapping>
+
+
+</web-app>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/admin/startvotingprocess</url>
+    <description>Starts Voting Process On the Due time</description>
+    <schedule>every 2 minutes</schedule>
+     <timezone>Europe/Berlin</timezone>
+  </cron>
+</cronentries>
+
